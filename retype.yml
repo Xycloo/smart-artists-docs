@@ -1,6 +1,7 @@
 input: .
 output: .retype
-url: # Add your website address here
+favicon: saNFTs.png
+url: smartartists.github.io
 branding:
   title: SmartArtists
   label: BETA
