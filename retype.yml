@@ -5,7 +5,18 @@ branding:
   title: SmartArtists
   label: BETA
 links:
-- text: Get Started
-  link: /
+- text: Litepaper
+  link: https://www.canva.com/design/DAEwY4NM08I/3rxM4-0YRlPPBuNQqIe_Fg/view
+  target: _blank
+- text: Demo
+  link: https://smart-artists.pages.dev/demo/
+  target: _blank
+- text: Twitter
+  link: https://twitter.com/heytdep
+  target: _blank
+- text: Medium
+  link: https://tdep.medium.com
+  target: _blank
+
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
