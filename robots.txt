@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://smartartists.github.io/sitemap.xml.gz
+Sitemap: https://smartartistsnfts.github.io/sitemap.xml.gz
