@@ -24,7 +24,7 @@ Your buy offer will be divided between the all owners of that <span style="font-
 
 As you can see, an owner earns as long as there is always a new buyer ready to buy. While this is the principle behind trading standard NFTs, I wanted something more for SmartArtists, that's because, as you already know, these are not standard NFTs.
 
-Using the volume/rewards pools functionality, I added a layer of dynamicism to the platform, incentivizing users to buy.
+Using the volume/rewards pools functionality, I added a layer of dynamism to the platform, incentivizing users to buy.
 
 #### How it works:
 
