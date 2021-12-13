@@ -3,6 +3,8 @@ order: 100
 icon: beaker
 ---
 
+
+
 ### Artists Upload Their saNFTs
 
 The Artists will be able to upload their <span style="font-size:1.3rem;color:#8C52FF">**saNFT**</span> to the marketplace. There currently is no dashboard as SmartArtists is still in development stage. 
@@ -24,8 +26,7 @@ When a user buys a <span style="font-size:1rem;color:#8C52FF">**saNFT**</span>, 
 
 ##### The How to Earn page will extend and explain the whole buy offer, and rewarding the owners concept.
 
-<!-->
-
+<!--
 After reading this page, you will have an understanding of how Smartarists works. From the basics (how to earn, what you are buying, etc), to the more advanced features (pool accounts, unique nfts marketplace, reparations, etc). 
 
 **Let's start!**
@@ -65,5 +66,5 @@ The more you own in the ownership network of a saNFT, the more you earn as you'l
 
 ### Get a unique "buyer NFT" associated to your wallet
 
-Besides entering in the saNFT's ownership network (as seen in the previous section), you will also get the 
-<!-->
+As you can understand, if the buyer can decide the price for the saNFT they're buying, there will be multiple owners for a single saNFT. This means that whenever a new user buys a new saNFT, they are buyer number `n`. When a user buys a saNFT, the platform will assign to their wallet a unique "*n*buyerNFT". That will be unique for your wallet, and will also become a source of profits for you in two different ways (see in the linked sections):
+-->
