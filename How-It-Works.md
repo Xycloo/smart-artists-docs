@@ -41,10 +41,10 @@ After reading this page, you will have an understanding of how Smartarists works
 > Pay attention here, this is one of the most confusing aspects of the project if you are used to buying standard NFTs.
 
 When buying a smartartistsNFT (<span style="font-size:1rem;color:#8C52FF">**saNFT**</span>), you will mainly be doing 4 things:
-1. [Get the <span style="font-size:1rem;color:#8C52FF">**saNFT**</span> issued to your wallet](#get-the-sanft-issued-to-your-wallet).
-2. [Get a unique *"buyer NFT"* associated to your wallet](#get-a-unique-buyer-nft-associated-to-your-wallet).
-3. [Reward the Artist and the previous owners with your `buy_offer`](#rewarding).
-4. [Fund the pool account with a % of your `buy_offer`](#funding-the-pool-account).
+1. [!badge Get the <span style="font-size:1rem;color:#8C52FF">**saNFT**</span> issued to your wallet](#get-the-sanft-issued-to-your-wallet).
+2. [!badge Get a unique *"buyer NFT"* associated to your wallet](#get-a-unique-buyer-nft-associated-to-your-wallet).
+3. [!badge Reward the Artist and the previous owners with your `buy_offer`](#rewarding).
+4. [!badge Fund the pool account with a % of your `buy_offer`](#funding-the-pool-account).
 
 Each of these 4 steps is a key part of the project in terms of dynamicity, and will be explain in detail in the next sections.
 
@@ -80,7 +80,7 @@ That will be unique for your wallet, and will also become a source of profits fo
 <hr>
 
 ### Rewarding
-#### Owners
++++ Owners
 The process of rewarding owners is quite simple and only requires basic maths to be understood. When you(user A) buy a saNFT, the platform will reward the previous owners with your *buy_offer*. 
 
 Each owner gets rewarded differently, **depending on how much they own of the saNFT's ownership network** (if you don't know what this term is, give another read to the [first paragraph](#get-the-sanft-issued-to-your-wallet)).
@@ -94,7 +94,7 @@ But how much does each owner receive? This very simple formula covers it:
 >- ownerdPerc is the percentage of the ownership network that the owner owns
 
 ##### The higher your *buy_offer*, the higher your owneedPerc, the more you'll earn for every new buyer.
-#### Artists
++++ Artists
 The process of rewarding artists is even simpler. Each time a new user buys the artist's saNFT, a fixed percentage (artist fee) of your *buy_offer* will go straight into the artist's wallet, while the remaining will go to reward the owners. 
 
 It's obvious that the higher the higher the artist fee, the less owners will earn. So, how much in % is this artist fee?
@@ -102,7 +102,7 @@ It's obvious that the higher the higher the artist fee, the less owners will ear
 It's decided by the artist themselves. This is what I liked about this platform when I started designing it: it allows artists to have a completely dynamic strategy planning (as you'll also see in the Advanced features section).
 
 Anyways, doesn't this mean that the artist could set a fee of 99% and the owners would only receive 1%? Sure, but who's going to buy something that can profit them a maximum of 1%? **No one**. That's why the artist has to find a range of setting their fee that will also benefit the owners, so both the owners and the artist can profit.
-
++++
 <hr>
 
 ### Funding the pool account
