@@ -3,6 +3,11 @@ order: 100
 icon: beaker
 ---
 
+### Artists Upload Their saNFTs
+
+The Artists will be able to upload their <span style="font-size:1.3rem;color:#8C52FF">**saNFT**</span> to the marketplace. There currently is no dashboard as SmartArtists is still in development stage. 
+
+
 If you wish to be one of the first Artists to be able to upload the first <span style="font-size:1.3rem;color:#8C52FF">**saNFTs**</span>, drop a message on my Twitter. I'll let you know when I'll be uploading the first beta NFTs.
 
 <hr>
