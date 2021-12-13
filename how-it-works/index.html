@@ -25,11 +25,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="/sanfts.png" rel="icon" />
-    <link href="/resources/css/retype.css?v=1.11.1.692691432122" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/resources/css/retype.css?v=1.11.1.692699015997" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/resources/js/config.js?v=1.11.1.692691432122" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/resources/js/config.js?v=1.11.1.692699015997" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/resources/js/retype.js?v=1.11.1" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=1.11.1.692691432122" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=1.11.1.692699015997" defer></script>
 </head>
     <body>
         <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -251,10 +251,18 @@ When a user buys a <span style="font-size:1rem;color:#8C52FF">**saNFT**</span>, 
 </blockquote>
 <p>When buying a smartartistsNFT (<span style="font-size:1rem;color:#8C52FF"><strong>saNFT</strong></span>), you will mainly be doing 4 things:</p>
 <ol>
-<li><doc-anchor-trigger to="#get-the-sanft-issued-to-your-wallet">Get the <span style="font-size:1rem;color:#8C52FF"><strong>saNFT</strong></span> issued to your wallet</doc-anchor-trigger>.</li>
-<li><doc-anchor-trigger to="#get-a-unique-buyer-nft-associated-to-your-wallet">Get a unique <em>&quot;buyer NFT&quot;</em> associated to your wallet</doc-anchor-trigger>.</li>
-<li><doc-anchor-trigger to="#rewarding">Reward the Artist and the previous owners with your <code v-pre>buy_offer</code></doc-anchor-trigger>.</li>
-<li><doc-anchor-trigger to="#funding-the-pool-account">Fund the pool account with a % of your <code v-pre>buy_offer</code></doc-anchor-trigger>.</li>
+<li><doc-anchor-trigger to="#get-the-sanft-issued-to-your-wallet" class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 border border-blue-100 hover:border-blue-300 dark:hover:bg-blue-200 transition-colors duration-200 ease-out h-6 px-2 text-xs rounded-md">
+    <span>Get the <span style="font-size:1rem;color:#8C52FF"><strong>saNFT</strong></span> issued to your wallet</span>
+</doc-anchor-trigger>.</li>
+<li><doc-anchor-trigger to="#get-a-unique-buyer-nft-associated-to-your-wallet" class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 border border-blue-100 hover:border-blue-300 dark:hover:bg-blue-200 transition-colors duration-200 ease-out h-6 px-2 text-xs rounded-md">
+    <span>Get a unique <em>&quot;buyer NFT&quot;</em> associated to your wallet</span>
+</doc-anchor-trigger>.</li>
+<li><doc-anchor-trigger to="#rewarding" class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 border border-blue-100 hover:border-blue-300 dark:hover:bg-blue-200 transition-colors duration-200 ease-out h-6 px-2 text-xs rounded-md">
+    <span>Reward the Artist and the previous owners with your <code v-pre>buy_offer</code></span>
+</doc-anchor-trigger>.</li>
+<li><doc-anchor-trigger to="#funding-the-pool-account" class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 border border-blue-100 hover:border-blue-300 dark:hover:bg-blue-200 transition-colors duration-200 ease-out h-6 px-2 text-xs rounded-md">
+    <span>Fund the pool account with a % of your <code v-pre>buy_offer</code></span>
+</doc-anchor-trigger>.</li>
 </ol>
 <p>Each of these 4 steps is a key part of the project in terms of dynamicity, and will be explain in detail in the next sections.</p>
 <hr>
@@ -299,12 +307,9 @@ When a user buys a <span style="font-size:1rem;color:#8C52FF">**saNFT**</span>, 
         <span>Rewarding</span>
     </h3>
 </doc-anchor-target>
-<doc-anchor-target id="owners">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#owners">#</doc-anchor-trigger>
-        <span>Owners</span>
-    </h4>
-</doc-anchor-target>
+<doc-tabs>
+<doc-tab id="owners">
+<template #title>Owners</template>
 <p>The process of rewarding owners is quite simple and only requires basic maths to be understood. When you(user A) buy a saNFT, the platform will reward the previous owners with your <em>buy_offer</em>.</p>
 <p>Each owner gets rewarded differently, <strong>depending on how much they own of the saNFT&#x27;s ownership network</strong> (if you don&#x27;t know what this term is, give another read to the <doc-anchor-trigger to="#get-the-sanft-issued-to-your-wallet">first paragraph</doc-anchor-trigger>).</p>
 <p>But how much does each owner receive? This very simple formula covers it:</p>
@@ -322,16 +327,15 @@ When a user buys a <span style="font-size:1rem;color:#8C52FF">**saNFT**</span>, 
         <span>The higher your <em>buy_offer</em>, the higher your owneedPerc, the more you&#x27;ll earn for every new buyer.</span>
     </h5>
 </doc-anchor-target>
-<doc-anchor-target id="artists">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#artists">#</doc-anchor-trigger>
-        <span>Artists</span>
-    </h4>
-</doc-anchor-target>
+</doc-tab>
+<doc-tab id="artists">
+<template #title>Artists</template>
 <p>The process of rewarding artists is even simpler. Each time a new user buys the artist&#x27;s saNFT, a fixed percentage (artist fee) of your <em>buy_offer</em> will go straight into the artist&#x27;s wallet, while the remaining will go to reward the owners.</p>
 <p>It&#x27;s obvious that the higher the higher the artist fee, the less owners will earn. So, how much in % is this artist fee?</p>
 <p>It&#x27;s decided by the artist themselves. This is what I liked about this platform when I started designing it: it allows artists to have a completely dynamic strategy planning (as you&#x27;ll also see in the Advanced features section).</p>
 <p>Anyways, doesn&#x27;t this mean that the artist could set a fee of 99% and the owners would only receive 1%? Sure, but who&#x27;s going to buy something that can profit them a maximum of 1%? <strong>No one</strong>. That&#x27;s why the artist has to find a range of setting their fee that will also benefit the owners, so both the owners and the artist can profit.</p>
+</doc-tab>
+</doc-tabs>
 <hr>
 <doc-anchor-target id="funding-the-pool-account">
     <h3>
