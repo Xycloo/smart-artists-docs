@@ -25,11 +25,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="/sanfts.png" rel="icon" />
-    <link href="/resources/css/retype.css?v=1.11.1.692688584854" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/resources/css/retype.css?v=1.11.1.692689149635" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/resources/js/config.js?v=1.11.1.692688584854" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/resources/js/config.js?v=1.11.1.692689149635" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/resources/js/retype.js?v=1.11.1" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=1.11.1.692688584854" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=1.11.1.692689149635" defer></script>
 </head>
     <body>
         <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -232,55 +232,48 @@
         <span>The How to Earn page will extend and explain the whole buy offer, and rewarding the owners concept.</span>
     </h5>
 </doc-anchor-target>
-<!-->
-<p>After reading this page, you will have an understanding of how Smartarists works. From the basics (how to earn, what you are buying, etc), to the more advanced features (pool accounts, unique nfts marketplace, reparations, etc).</p>
-<p><strong>Let&#x27;s start!</strong></p>
+<!--
+After reading this page, you will have an understanding of how Smartarists works. From the basics (how to earn, what you are buying, etc), to the more advanced features (pool accounts, unique nfts marketplace, reparations, etc). 
+
+**Let's start!**
 <hr>
-<doc-anchor-target id="what-will-you-be-buying">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#what-will-you-be-buying">#</doc-anchor-trigger>
-        <span>What will you be buying?</span>
-    </h3>
-</doc-anchor-target>
-<blockquote>
-<p>Pay attention here, this is one of the most confusing aspects of the project if you are used to buying standard NFTs.</p>
-</blockquote>
-<p>When buying a smartartistsNFT (<span style="font-size:1rem;color:#8C52FF"><strong>saNFT</strong></span>), you will mainly be doing 4 things:</p>
-<ol>
-<li><doc-anchor-trigger to="#get-the-sanft-issued-to-your-wallet">Get the <span style="font-size:1rem;color:#8C52FF"><strong>saNFT</strong></span> issued to your wallet</doc-anchor-trigger>.</li>
-<li><a href="">Get a unique <em>&quot;buyer NFT&quot;</em> associated to your wallet</a>.</li>
-<li><a href="">Reward the Artist and the previous owners with your <code v-pre>buy_offer</code></a>.</li>
-<li><a href="">Fund the pool account with a % of your <code v-pre>buy_offer</code></a>.</li>
-</ol>
-<p>Each of these 4 steps is a key part of the project in terms of dynamicity, and will be explain in detail in the next sections.</p>
+
+### What will you be buying?
+
+> Pay attention here, this is one of the most confusing aspects of the project if you are used to buying standard NFTs.
+
+When buying a smartartistsNFT (<span style="font-size:1rem;color:#8C52FF">**saNFT**</span>), you will mainly be doing 4 things:
+1. [Get the <span style="font-size:1rem;color:#8C52FF">**saNFT**</span> issued to your wallet](#get-the-sanft-issued-to-your-wallet).
+2. [Get a unique *"buyer NFT"* associated to your wallet]().
+3. [Reward the Artist and the previous owners with your `buy_offer`]().
+4. [Fund the pool account with a % of your `buy_offer`]().
+
+Each of these 4 steps is a key part of the project in terms of dynamicity, and will be explain in detail in the next sections.
+
 <hr>
-<doc-anchor-target id="get-the-sanft-issued-to-your-wallet">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#get-the-sanft-issued-to-your-wallet">#</doc-anchor-trigger>
-        <span>Get the saNFT issued to your wallet</span>
-    </h3>
-</doc-anchor-target>
-<p><span style="font-size:1rem;color:#8C52FF"><strong>saNFT</strong></span>s don&#x27;t have a price, you can decide for how much XLM you want to buy them: that will be your <em>buy_offer</em>. What is the logic behind this? Let&#x27;s find out!</p>
-<p>When you get a saNFT issued to your wallet, the Stellar network will store on-chain the following information:</p>
-<blockquote>
-<p><em>User</em> bought <em>testSaNFT</em> for a <em>buy_offer</em> of <em><strong>n</strong></em> XLM</p>
-</blockquote>
-<p>This info will then be used to build an on-chain database of owners with how much each of them owns (their <em>buy_offer</em>) compared to the total of XLM that have been spent on that saNFT.</p>
-<p>For example, if a total of 900XLM have been spent on <em>testSaNFT</em>, and you bought it with a <em>buy_offer</em> of 100XLM, you would own 10% of <em>testSaNFT</em>&#x27;s ownership network as:</p>
-<ul>
-<li>total XLM on <em>testSaNFT</em> are 900 + your buy offer (100XLM) = 1000XLM</li>
-<li>you own 100XLM of 1000XLM, that&#x27;s exactly the 10%</li>
-</ul>
-<p>The more you own in the ownership network of a saNFT, the more you earn as you&#x27;ll discover in the <a href="">Reward the Artist and the previous owners with your <code v-pre>buy_offer</code></a> section. <strong>As you can see, the higher your <em>buy_offer</em> is, the more you&#x27;ll possibly earn. That&#x27;s why each buyer can decide their <em>buy_offer</em></strong>.</p>
+
+### Get the saNFT issued to your wallet
+
+<span style="font-size:1rem;color:#8C52FF">**saNFT**</span>s don't have a price, you can decide for how much XLM you want to buy them: that will be your *buy_offer*. What is the logic behind this? Let's find out!
+
+When you get a saNFT issued to your wallet, the Stellar network will store on-chain the following information:
+
+> *User* bought *testSaNFT* for a *buy_offer* of ***n*** XLM
+
+This info will then be used to build an on-chain database of owners with how much each of them owns (their *buy_offer*) compared to the total of XLM that have been spent on that saNFT. 
+
+For example, if a total of 900XLM have been spent on *testSaNFT*, and you bought it with a *buy_offer* of 100XLM, you would own 10% of *testSaNFT*'s ownership network as:
+- total XLM on *testSaNFT* are 900 + your buy offer (100XLM) = 1000XLM
+- you own 100XLM of 1000XLM, that's exactly the 10%
+
+The more you own in the ownership network of a saNFT, the more you earn as you'll discover in the [Reward the Artist and the previous owners with your `buy_offer`]() section. **As you can see, the higher your *buy_offer* is, the more you'll possibly earn. That's why each buyer can decide their *buy_offer***.
+
 <hr>
-<doc-anchor-target id="get-a-unique-buyer-nft-associated-to-your-wallet">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#get-a-unique-buyer-nft-associated-to-your-wallet">#</doc-anchor-trigger>
-        <span>Get a unique &quot;buyer NFT&quot; associated to your wallet</span>
-    </h3>
-</doc-anchor-target>
-<p>Besides entering in the saNFT&#x27;s ownership network (as seen in the previous section), you will also get the</p>
-<!-->
+
+### Get a unique "buyer NFT" associated to your wallet
+
+As you can understand, if the buyer can decide the price for the saNFT they're buying, there will be multiple owners for a single saNFT. This means that whenever a new user buys a new saNFT, they are buyer number `n`. When a user buys a saNFT, the platform will assign to their wallet a unique "*n*buyerNFT". That will be unique for your wallet, and will also become a source of profits for you in two different ways (see in the linked sections):
+-->
 
 
 
