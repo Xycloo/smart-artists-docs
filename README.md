@@ -44,3 +44,6 @@ What about:
 
 That's where SmartArtistsNFTs, or <span style="font-size:1.3rem;color:#8C52FF">**saNFTs**</span> come into play.
 
+<hr>
+
+##### SmartArtists is a marketplace for these special NFTs, entirely built on **Stellar** DeFi. This is possible thanks to [stellar turrets](https://tss.stellar.org/).
