@@ -25,11 +25,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="/logo.png" rel="icon" />
-    <link href="/resources/css/retype.css?v=1.11.1.692903874106" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/resources/css/retype.css?v=1.11.1.692904384636" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/resources/js/config.js?v=1.11.1.692903874106" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/resources/js/config.js?v=1.11.1.692904384636" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/resources/js/retype.js?v=1.11.1" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=1.11.1.692903874106" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=1.11.1.692904384636" defer></script>
 </head>
     <body>
         <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -225,7 +225,7 @@ When a user buys a <span style="font-size:1rem;color:#8C52FF">**saNFT**</span>, 
 ##### The How to Earn page will extend and explain the whole buy offer, and rewarding the owners concept.
 
 -->
-<p>After reading this page, you will have an understanding of how Smartarists works. From the basics (how to earn, what you are buying, etc), to the more advanced features (pool accounts, unique nfts marketplace, reparations, etc).</p>
+<p>After reading this page, you will have an understanding of how Smartarists works. From the basics (how to earn, what you are buying, etc), to the more advanced features (pool accounts, unique nfts marketplace, rewards for the unprofitable, etc).</p>
 <p><strong>Let&#x27;s start!</strong></p>
 <hr>
 <doc-anchor-target id="basics">
@@ -358,6 +358,77 @@ Latest <i>k</i> owners are the ones that have bought in a <i>k</i> period of tim
         <span>This will bring interesting developings, also from a purely trading-based perspective.</span>
     </h5>
 </doc-anchor-target>
+<hr>
+<doc-anchor-target id="advanced-featuresconcepts">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#advanced-featuresconcepts">#</doc-anchor-trigger>
+        <span>Advanced features/concepts</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="rewards-for-unprofitable-owners">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#rewards-for-unprofitable-owners">#</doc-anchor-trigger>
+        <span>Rewards for unprofitable owners</span>
+    </h3>
+</doc-anchor-target>
+<div class="flex mb-6">
+    <div class="flex-shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3">
+            <h5><span class="docs-emoji">&#x26A0;&#xFE0F;</span> This could change <span class="docs-emoji">&#x26A0;&#xFE0F;</span></h5>
+<p>this is still highly experimental, info within this paragraph might change in the future</p>
+        </div>
+    </div>
+</div>
+<blockquote>
+<p>Investing always carries some risk</p>
+</blockquote>
+<p>But what if you are investing in something that rewards you if you&#x27;re not able to make a profit? That sounds both awesome and nonesense, so let us explain it better.</p>
+<doc-anchor-target id="holding-a-5-of-the-pool-account">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#holding-a-5-of-the-pool-account">#</doc-anchor-trigger>
+        <span>Holding a 5% of the pool account</span>
+    </h4>
+</doc-anchor-target>
+<p>If you&#x27;ve read the previous paragraphs, you should have an understanding on how pool accounts work. Now, they can also be leveraged to offer a reward to those who were not able to make a profit.</p>
+<doc-tabs>
+<doc-tab id="how-it-works">
+<template #title><strong>How It Works</strong></template>
+<p>Each <em>&quot;tot time&quot;</em> round, a 5% of the pool is reserved to be equally distributed between the users that have not yet profited from their investment. But owners will obviously not be able to get these rewards whenever they want, before claiming these rewards, these two conditions must be met:</p>
+<ul>
+<li><a href="http://docs.smartartists.art/how-it-works/#first-condition" target="_blank" class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 border border-blue-100 hover:border-blue-300 dark:hover:bg-blue-200 transition-colors duration-200 ease-out h-6 px-2 text-xs rounded-md">
+    <span>Less volume than 10% of the total volume in the latest 2 <em>tot time</em> rounds <span class="docs-emoji">&#x2753;</span></span>
+</a></li>
+<li><a href="http://docs.smartartists.art/how-it-works/#second-condition" target="_blank" class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 border border-blue-100 hover:border-blue-300 dark:hover:bg-blue-200 transition-colors duration-200 ease-out h-6 px-2 text-xs rounded-md">
+    <span>The non-profitable owners agree to claim these rewards [see more in the second section tab]</span>
+</a></li>
+</ul>
+</doc-tab>
+<doc-tab id="first-condition">
+<template #title><em>First condition</em></template>
+<p><em><strong>Still need to complete the docs, return in a couple days an you&#x27;ll find this updated!</strong></em></p>
+</doc-tab>
+<doc-tab id="second-condition">
+<template #title><em>Second condition</em></template>
+<p>Once rewards are decided to be claimed, all the non-profitable owners will receive their rewards. But it may happen that not all the non-profitable owners agree to claim their rewards, some might want to wait until the rewards get higher, while other might want to claim the rewards right away. <strong>How will the platform decide wheter to distribute rewards or not?</strong></p>
+<p>Always using on-chain data, smartartists will:</p>
+<ol>
+<li>Calculate the total amount of XLM the non-profitable owners are losing (<code v-pre>total_loss</code>)</li>
+<li>Build a list of the non-profitable owners along with how much they are losing compared to the total loss (<code v-pre>owner_loss</code>)</li>
+<li>If more than 50% of the <code v-pre>total_loss</code> decide to claim rewards, the rewards will be distributed.</li>
+</ol>
+<p>This feature though is still in a feature-shaping phase, so all this can change in the future. But when the first saNFTs will</p>
+</doc-tab>
+</doc-tabs>
 
 
 
