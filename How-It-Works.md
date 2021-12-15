@@ -161,5 +161,5 @@ Always using on-chain data, smartartists will:
 2. Build a list of the non-profitable owners along with how much they are losing compared to the total loss (`owner_loss`)
 3. If more than 50% of the `total_loss` decide to claim rewards, the rewards will be distributed.
 
-This feature though is still in a feature-shaping phase, so all this can change in the future. But when the first saNFTs will
+This feature though is still in a feature-shaping phase, so all this can change in the future. But dont worry, when the first saNFTs will be issued, this feature will be complete and won't change.
 +++
