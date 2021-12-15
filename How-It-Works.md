@@ -28,7 +28,7 @@ When a user buys a <span style="font-size:1rem;color:#8C52FF">**saNFT**</span>, 
 
 -->
 
-After reading this page, you will have an understanding of how Smartarists works. From the basics (how to earn, what you are buying, etc), to the more advanced features (pool accounts, unique nfts marketplace, reparations, etc). 
+After reading this page, you will have an understanding of how Smartarists works. From the basics (how to earn, what you are buying, etc), to the more advanced features (pool accounts, unique nfts marketplace, rewards for the unprofitable, etc). 
 
 **Let's start!**
 <hr>
@@ -126,3 +126,40 @@ This will ensure a high volume for that saNFT duing the *k* period, as there wil
 But there will also be buyers that buy before the *k* period trying to **anticipate big volumes**, as they know there will be more buyers next.
 
 ##### This will bring interesting developings, also from a purely trading-based perspective.
+
+<hr>
+
+## Advanced features/concepts
+
+### Rewards for unprofitable owners
+
+!!! :warning: This could change :warning:
+ this is still highly experimental, info within this paragraph might change in the future
+!!!
+
+> Investing always carries some risk
+
+But what if you are investing in something that rewards you if you're not able to make a profit? That sounds both awesome and nonesense, so let us explain it better.
+
+#### Holding a 5% of the pool account
+
+If you've read the previous paragraphs, you should have an understanding on how pool accounts work. Now, they can also be leveraged to offer a reward to those who were not able to make a profit.
+
++++ **How It Works**
+Each *"tot time"* round, a 5% of the pool is reserved to be equally distributed between the users that have not yet profited from their investment. But owners will obviously not be able to get these rewards whenever they want, before claiming these rewards, these two conditions must be met:
+
+- [!badge target="blank" text="Less volume than 10% of the total volume in the latest 2 *tot time* rounds ❓"](http://docs.smartartists.art/how-it-works/#first-condition)
+- [!badge target="blank" text="The non-profitable owners agree to claim these rewards [see more in the second section tab]"](http://docs.smartartists.art/how-it-works/#second-condition)
++++ *First condition*
+***Still need to complete the docs, return in a couple days an you'll find this updated!***
+
++++ *Second condition*
+Once rewards are decided to be claimed, all the non-profitable owners will receive their rewards. But it may happen that not all the non-profitable owners agree to claim their rewards, some might want to wait until the rewards get higher, while other might want to claim the rewards right away. **How will the platform decide wheter to distribute rewards or not?**
+
+Always using on-chain data, smartartists will:
+1. Calculate the total amount of XLM the non-profitable owners are losing (`total_loss`)
+2. Build a list of the non-profitable owners along with how much they are losing compared to the total loss (`owner_loss`)
+3. If more than 50% of the `total_loss` decide to claim rewards, the rewards will be distributed.
+
+This feature though is still in a feature-shaping phase, so all this can change in the future. But when the first saNFTs will
++++
