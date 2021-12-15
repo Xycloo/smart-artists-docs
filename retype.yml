@@ -1,6 +1,6 @@
 input: .
 output: .retype
-favicon: saNFTs.png
+favicon: logo.png
 url: smartartistsnfts.github.io
 branding:
   title: SmartArtists
@@ -12,8 +12,6 @@ links:
 - text: SCF round 9
   link: https://communityfund.stellar.org/projects/smartartists
   target: _blank
-- text: Demo
-  link: https://smart-artists.pages.dev/demo/
   target: _blank
 - text: Twitter
   link: https://twitter.com/heytdep
