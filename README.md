@@ -24,7 +24,7 @@ SmartArtists was selected by the #SCF Panel as one of the 35 projects to partici
 <hr/>
 
 <div style="text-align:center">
-<img src="logo3.png" style="border-radius:20px;margin-bottom:2vh; width:200px" /> 
+<img src="logo_fin.png" style="border-radius:20px;margin-bottom:2vh; width:200px" /> 
 </div>
 
 
