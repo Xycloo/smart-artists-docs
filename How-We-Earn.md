@@ -3,6 +3,24 @@ icon: pulse
 order: 95
 ---
 
+
+<hr>
+<div style="border-radius: 5px; border: 0px solid rgba(225,229,239); display:flex">
+
+<div style="width:10px; background:#0FA3B1; border-radius: 10px; margin-right: 20px"></div>
+<div>
+
+<h3>Only on BETA release</h3>
+
+When the first ALPHA saNFTs are released, we will take no fees as a platform, rather just being the artists of the saNFT.
+
+Below there are two ways we will earn as a platform, but only when we reach a BETA development stage.
+</div>
+</div>
+
+<hr/>
+
+
 SmartArtists takes no fees from artists. Yet there's two ways we will get revenue: 
 
 ### 1 - First Owners
