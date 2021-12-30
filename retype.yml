@@ -6,19 +6,7 @@ branding:
   title: SmartArtists
   label: ALPHA
 links:
-- text: Litepaper
-  link: https://www.canva.com/design/DAEwY4NM08I/3rxM4-0YRlPPBuNQqIe_Fg/view
-  target: _blank
-- text: SCF round 9
-  link: https://communityfund.stellar.org/projects/smartartists
-  target: _blank
-  target: _blank
-- text: Twitter
-  link: https://twitter.com/heytdep
-  target: _blank
-- text: Medium
-  link: https://tdep.medium.com
-  target: _blank
-
+- text: soon
+  link: '#'
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."

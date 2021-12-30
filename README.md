@@ -16,34 +16,32 @@ icon: home
 
 SmartArtists was selected by the #SCF Panel as one of the 35 projects to participate in the Community Discussion and Community Vote.
 
-- [Find the project on the #SCF page](https://communityfund.stellar.org/projects/smartartists)
-- [Join the #SCF discord Channel](https://discord.gg/JYuczS2v) if you have any question about SmartArtists and other amazing Stellar Projects
 </div>
 </div>
 
 <hr/>
 
 <div style="text-align:center">
-<img src="logo_fin.png" style="border-radius:20px;margin-bottom:2vh; width:200px" /> 
+<img src="./smartartists.png" style="border-radius:20px;margin-bottom:2vh; width:400px" /> 
 </div>
 
-
-## Intro
 
 #### Stellar DeFi powering a marketplace for non-standard NFTs
 
 
 Hi **Stellar Lover**! 👋
 
+We are updating!
 
-Standard NFTs are great, but lack of a dynamic component:
-> You buy one, and sell it at a higher price when it gets more "*valuable*"
-
-What about:
-> You buy one, and **continuosly** earn *as* it gets more "*valuable*"
-
-That's where SmartArtistsNFTs, or <span style="font-size:1.3rem;color:#8C52FF">**saNFTs**</span> come into play.
+Soon :soon:  | ALPHA Release In Progress :tulip:  | Working on BETA :rose:
+---   | ---   | ---    
+Complete Docs | First saNFTs collection | Governance system 
+Deployment of Home Website | Complete Layer-0, Layer-1, and Layer-2 earning mechanisms | Artists can start uploading their saNFTs 
+Educational Videos to learn about SmartArtists | saNFT analytics tool | Crowdfunding for saNFTs
+Twitter account for updates and announcements |  | Stellar-based Authentication
+Discord server for the community and all your questions |  | more and more features
+Medium Blog |  | 
 
 <hr>
 
-##### SmartArtists is a marketplace for these special NFTs, entirely built on **Stellar** DeFi. This is possible thanks to [stellar turrets](https://tss.stellar.org/).
+##### SmartArtists is a marketplace for saNFTs, entirely built on **Stellar** DeFi. This is possible thanks to [stellar turrets](https://tss.stellar.org/).
