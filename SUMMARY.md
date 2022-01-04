@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome](README.md)
+* [Discover the Smart Artists Documentation](README.md)
 
 ## 📚 learn
 
