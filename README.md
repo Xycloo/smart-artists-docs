@@ -6,6 +6,8 @@ description: Welcome to Smart Artists's documentation
 
 Hi! This is the documentation page for Smart Artists. Learn about the protocol and the marketplace.
 
+![](<.gitbook/assets/image (1).png>)
+
 ## Start Here
 
 ### [Learn ](broken-reference)
