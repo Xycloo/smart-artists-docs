@@ -14,3 +14,7 @@ The NFT market is at its peak right now and will continue to grow, we are using 
 
 **Smart Artists is a DeFi protocol** (Decentralized Finance protocol) meaning that it works in a Decentralized way without having a central authority that controls the protocol. All the updates we will do, need to be first **approved by the users** who use our protocol, and anyone can propose updates. This means that you have control over your own saNFTs and how you earn from them.
 
+## How do Users Update the Smart Artists Protocol?
+
+No centralized entity has access to Smart Artists' protocol account (thus its smart contracts), this means that our development team cannot update, fix, or add contracts. But updating is important in every app that we use, what works today might not work in the near future
+
