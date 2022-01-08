@@ -16,5 +16,5 @@ The NFT market is at its peak right now and will continue to grow, we are using 
 
 ## How do Users Update the Smart Artists Protocol?
 
-No centralized entity has access to Smart Artists' protocol account (thus its smart contracts), this means that our development team cannot update, fix, or add contracts. But updating is important in every app that we use, what works today might not work in the near future
+No centralized entity has access to Smart Artists' protocol account (thus its smart contracts), this means that our development team cannot update, fix, or add contracts. But updating is important in every app that we use, what works today might not work in the near future. This is where [our governance model](governance-model.md) kicks in, enabling the protocol to be updated and changed in a decentralized way.
 
