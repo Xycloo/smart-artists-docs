@@ -1,6 +1,6 @@
 # smartartistsNFTs
 
-{% embed url="https://www.canva.com/design/DAE0AwqUGIs/OmsvaacsRsoADRfSGicivA/watch" %}
+
 
 Smart Artists introduces the NFT world to a new way of profiting from your NFTs.
 
