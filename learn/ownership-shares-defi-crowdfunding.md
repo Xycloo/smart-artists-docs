@@ -1,2 +1,0 @@
-# Ownership Shares DeFi Crowdfunding
-

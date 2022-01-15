@@ -11,7 +11,6 @@
 * [Layer-2](learn/layer-2.md)
 * [Staking](learn/staking.md)
 * [saNFT Analytics Tool](learn/sanft-analytics-tool.md)
-* [Ownership Shares DeFi Crowdfunding](learn/ownership-shares-defi-crowdfunding.md)
 * [Governance Model](learn/governance-model.md)
 
 ## 💻 technical
