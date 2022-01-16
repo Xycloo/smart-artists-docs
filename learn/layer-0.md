@@ -15,4 +15,4 @@ To keep everything in a single transaction for better performance, and not fragm
 
 This means that when more than 92 users buy a saNFT, only the 92 users with the highest ownership percentage will be able to remain in the network and be rewarded for every new buyer.&#x20;
 
-This feature also allows us to use at its best the stellar network (optimize the potentialities of the stellar network) by wrapping all layer-0 payments within one transaction. This also means that you have to choose carefully the percentage of ownership to acquire in order to stay longer in the network long enough to profit). But don’t worry, the saNFT Analytics tool has got you covered with&#x20;
+This feature also allows us to use at its best the stellar network (optimize the potentialities of the stellar network) by wrapping all layer-0 payments within one transaction. This also means that you have to choose carefully the percentage of ownership to acquire in order to stay longer in the network long enough to profit). But don’t worry, the [saNFT Analytics tool](sanft-analytics-tool.md) will help you make these decisions.&#x20;
