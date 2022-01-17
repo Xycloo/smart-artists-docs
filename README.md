@@ -2,11 +2,11 @@
 description: Welcome to Smart Artists's documentation
 ---
 
-# Discover the Smart Artists Documentation
+# saDocs
 
 Hi! This is the documentation page for Smart Artists. Learn about the protocol and the marketplace.
 
-![](<.gitbook/assets/image (1).png>)
+![](<.gitbook/assets/image (1) (1).png>)
 
 ## [Learn ](broken-reference)
 
