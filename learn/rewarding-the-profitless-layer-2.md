@@ -3,7 +3,7 @@
 ## What is Layer-2?
 
 Another peculiarity of saNFTs is layer-2: Because of it, in the event that some owners are not profitable, for lack of volume after their purchase, there will still be some rewards for them.\
-Because of this, the degree of risk for the purchase decreases, incentivizing new buyers
+Because of this, the degree of risk for the purchase decreases, incentivizing new buyers.
 
 ## How it Works
 
@@ -13,7 +13,7 @@ Each time that the pool account is redistributed (according to [Layer-1](volume-
 
 ### Conditions to Trigger the Rewards
 
-When in a specific period of time the volume is below a certain percentage of the volume of buy offers in the previous same period of time, rewards are triggered.&#x20;
+When in a specific period of time the volume is below a certain percentage of the volume of buy offers in the previous same period of time, rewards are triggered. (this is a tricky concept, see the [example](rewarding-the-profitless-layer-2.md#example) to make sure you understand it correctly).
 
 ### Rewarding
 

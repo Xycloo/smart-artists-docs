@@ -16,4 +16,4 @@
 ## 💻 technical
 
 * [Our Smart Contracts](technical/our-smart-contracts.md)
-* [Formulas](technical/formulas.md)
+* [Dictionary](technical/dictionary.md)
