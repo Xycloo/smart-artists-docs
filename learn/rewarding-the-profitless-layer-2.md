@@ -13,7 +13,7 @@ Each time that the pool account is redistributed (according to [Layer-1](volume-
 
 ### Conditions to Trigger the Rewards
 
-When in a specific period of time the volume is below a certain percentage of the volume of buy offers in the previous same period of time, rewards are triggered. (this is a tricky concept, see the [example](rewarding-the-profitless-layer-2.md#example) to make sure you understand it correctly).
+When in a specific period of time the [volume](../technical/formulas.md#volume) is below a certain percentage of the [volume](../technical/formulas.md#volume) of buy offers in the previous same period of time, rewards are triggered. (this is a tricky concept, see the [example](rewarding-the-profitless-layer-2.md#example) to make sure you understand it correctly).
 
 ### Rewarding
 
