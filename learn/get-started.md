@@ -6,7 +6,7 @@ Smart Artists is both a protocol and a marketplace for a special kind of Stellar
 
 The protocol is completely decentralized thanks to Stellar Turrets and operates through [its smart contracts](../technical/our-smart-contracts.md).
 
-By using Smart Artist's protocol, you will be able to share the ownership and earn passively on your saNFTs through multiple layers ([layer-0](layer-0.md), [layer-1](volume-pools-layer-1.md), [layer-2](layer-2.md), [staking](staking.md)).
+By using Smart Artist's protocol, you will be able to share the ownership and earn passively on your saNFTs through multiple layers ([layer-0](layer-0.md), [layer-1](volume-pools-layer-1.md), [layer-2](rewarding-the-profitless-layer-2.md), [staking](staking.md)).
 
 ## Why Smart Artists?
 
